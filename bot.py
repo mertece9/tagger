@@ -61,7 +61,7 @@ app = Client("GUNC",
 
 anlik_calisan = []
 
-ozel_list = [5105453716]
+ozel_list = [641319713]
 anlik_calisan = []
 grup_sayi = []
 etiketuye = []
@@ -74,15 +74,13 @@ async def info(event):
   await event.reply("**Merhaba Benim Ve Sahibim Hakkında Bilgi\n\nPython: 3.8.2\nKütüphanem: Telethon\n\nSahibim:  Gruplarınızda Üyeleri Etiketlemek için Yaratılmışım**",
                     buttons=(
                       [
-                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/Startaggerbot?startgroup=a')
+                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/VipTaggerBot?startgroup=a')
                       ],
                       [
-                       Button.url('📢 Kanal', 'https://t.me/StarBotKanal'),
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('📢 Kanal', 'https://t.me/ProTubeSupport'),
+                       Button.url('🇹🇷 Sahibim', 'https://t.me/TMertTt')
                       ],
-                      [
-                       Button.url('🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻', 'https://github.com/MehmetAtes21/Tagger')
-                      ],
+                     
                     ),
                     link_preview=False
                    )
@@ -100,17 +98,17 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await client.send_message(-1001752620477, f"ℹ️ **Yeni Kullanıcı -** {ad}")
+     await client.send_message(-1001512839610, f"ℹ️ **Yeni Kullanıcı -** {ad}")
      return await event.reply(f"**Merhaba \nGrubunuzdakı Üyeleri Etiketleye Bilirim\nKomutlar için Komutlar Düğmesine Tıklaya Bilirsiz**", buttons=(
                       [
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/StartaggerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/StarBotKanal')
+                       Button.url('Beni Grubuna Ekle', 'https://t.me/VipTaggerBot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/ProTubeSupport')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('Sahibim', 'https://t.me/TMertTt')
                       ],
                     ),
                     link_preview=False)
@@ -124,16 +122,16 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Merhaba Ben @MinaTagBot\nGrubunuzdakı Üyeleri Etiketleye Bilirim\nKomutlar için Komutlar Düğmesine Tıklaya Bilirsiz**", buttons=(
+     await event.edit(f"**Merhaba Ben @VipTaggerBot\nGrubunuzdakı Üyeleri Etiketleye Bilirim\nKomutlar için Komutlar Düğmesine Tıklaya Bilirsiz**", buttons=(
                       [
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/StartaggerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/StarBotKanal')
+                       Button.url('Beni Grubuna Ekle', 'https://t.me/VipTaggerBot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/ProTubeSupport')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('Sahibim', 'https://t.me/TMertTt')
                       ],
                     ),
                     link_preview=False)
@@ -702,5 +700,5 @@ class LAN(object):
         TOTAL_BLOCK = "🚷 **Ümumi əngəllənən:** `{}`\n\n{}"
 
 app.run()
-print(">> Bot çalışıyor @Hayiboo Tarafından Kuruldu<<")
+print(">> Bot çalışıyor @TMertTt Tarafından Kuruldu<<")
 client.run_until_disconnected()
