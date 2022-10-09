@@ -1,11 +1,11 @@
 # Tagger Bot 🇹🇷
-[Tagger Bot](https://t.me/StarTaggerBot) Telegram Etiket Botu .
+[Tagger Bot](https://t.me/VipTaggerBot) Telegram Etiket Botu .
 
 # Support 
-[Support](https://t.me/StarBotKanal) Telegram Support Grub .
+[Support](https://t.me/ProTubeSupport) Telegram Support Grub .
 
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MehmetAtes21/Tagger)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mertece9/Tagger)
 -
 
 
